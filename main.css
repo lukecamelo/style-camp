@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -68,12 +70,28 @@ h6 {
   margin-left: 30px;
   text-decoration: none;
   font-size: 1.5rem;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  text-transform: uppercase;
+}
+
+.navbar .navbar--item:hover {
+  color: #fff;
 }
 
 .navbar .navbar--button {
   padding: 6px 8px;
-  border: 1px solid #00d6d6;
+  border: 2px solid #00d6d6;
   color: #00d6d6;
   background-color: #002a32;
+  border-radius: 3px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.navbar .navbar--button:hover {
+  color: #fff;
+  border-color: #fff;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

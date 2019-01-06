@@ -1,4 +1,9 @@
-* {
+$nav-background: #002a32;
+$nav-color-primary: #00d6d6;
+
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -22,7 +27,7 @@ h6 {
   width: 100%;
   margin: 0 auto;
   padding: 1rem;
-  background-color: #002a32;
+  background-color: $nav-background;
 
   .navbar--content {
     width: 75%;
@@ -48,12 +53,26 @@ h6 {
     margin-left: 30px;
     text-decoration: none;
     font-size: 1.5rem;
+    transition: 0.25s;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #fff;
+    }
   }
 
   .navbar--button {
     padding: 6px 8px;
-    border: 1px solid #00d6d6;
-    color: #00d6d6;
-    background-color: #002a32;
+    border: 2px solid $nav-color-primary;
+    color: $nav-color-primary;
+    background-color: $nav-background;
+    border-radius: 3px;
+    transition: 0.25s;
+
+    &:hover {
+      color: #fff;
+      border-color: #fff;
+      cursor: pointer;
+    }
   }
 }
