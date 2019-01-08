@@ -76,3 +76,24 @@ h6 {
     }
   }
 }
+
+.content {
+  width: 75%;
+  margin: 10px auto 0 auto;
+  background-color: #dbcba3;
+}
+
+.content--header {
+  padding: 1rem;
+  background-color: #cfc09a;
+
+  .header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .icon {
+    margin-right: 0.5rem;
+  }
+}

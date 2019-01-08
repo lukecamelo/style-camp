@@ -94,4 +94,32 @@ h6 {
   border-color: #fff;
   cursor: pointer;
 }
+
+.content {
+  width: 75%;
+  margin: 10px auto 0 auto;
+  background-color: #dbcba3;
+}
+
+.content--header {
+  padding: 1rem;
+  background-color: #cfc09a;
+}
+
+.content--header .header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content--header .icon {
+  margin-right: 0.5rem;
+}
 /*# sourceMappingURL=main.css.map */
